@@ -22,16 +22,16 @@ echo "                           /        /_  /      "
 echo "                   /      /         /  /       "
 echo "                  /      /         /  /        "
 echo "                                  /  /         "
-echo "00: KILLALL    ";killall $1 -;vsleep 0.1
-echo "01: SIGHUP     ";killall $1 -v -s 1;sleep 0.1
-echo "02: SIGINT     ";killall $1 -v -s 2;sleep 0.1
-echo "03: SIGQUIT    ";killall $1 -v -s 3;sleep 0.1
-echo "04: SIGILL     ";killall $1 -v -s 4;sleep 0.1
-echo "05: SIGTRAP    ";killall $1 -v -s 5;sleep 0.1
-echo "06: SIGABRT    ";killall $1 -v -s 6;sleep 0.1
-echo "07: SIGBUS     ";killall $1 -v -s 7;sleep 0.1
-echo "08: SIGFPE     ";killall $1 -v -s 8;sleep 0.1
-echo "09: SIGKILL    ";killall $1 -v -s 9;sleep 0.1
+echo "00: KILLALL    ";killall $1 -v      ;sleep 0.1
+echo "01: SIGHUP     ";killall $1 -v -s 1 ;sleep 0.1
+echo "02: SIGINT     ";killall $1 -v -s 2 ;sleep 0.1
+echo "03: SIGQUIT    ";killall $1 -v -s 3 ;sleep 0.1
+echo "04: SIGILL     ";killall $1 -v -s 4 ;sleep 0.1
+echo "05: SIGTRAP    ";killall $1 -v -s 5 ;sleep 0.1
+echo "06: SIGABRT    ";killall $1 -v -s 6 ;sleep 0.1
+echo "07: SIGBUS     ";killall $1 -v -s 7 ;sleep 0.1
+echo "08: SIGFPE     ";killall $1 -v -s 8 ;sleep 0.1
+echo "09: SIGKILL    ";killall $1 -v -s 9 ;sleep 0.1
 echo "10: SIGUSR1    ";killall $1 -v -s 10;sleep 0.1
 echo "11: SIGSEGV    ";killall $1 -v -s 11;sleep 0.1
 echo "12: SIGUSR2    ";killall $1 -v -s 12;sleep 0.1
@@ -75,14 +75,14 @@ echo "51: SIGRTMAX-13";killall $1 -v -s 51;sleep 0.1
 echo "52: SIGRTMAX-12";killall $1 -v -s 52;sleep 0.1
 echo "53: SIGRTMAX-11";killall $1 -v -s 53;sleep 0.1
 echo "54: SIGRTMAX-10";killall $1 -v -s 54;sleep 0.1
-echo "55: SIGRTMAX-9";killall $1 -v -s 55;sleep 0.1
-echo "56: SIGRTMAX-8";killall $1 -v -s 56;sleep 0.1
-echo "57: SIGRTMAX-7";killall $1 -v -s 57;sleep 0.1
-echo "58: SIGRTMAX-6";killall $1 -v -s 58;sleep 0.1
-echo "59: SIGRTMAX-5";killall $1 -v -s 59;sleep 0.1
-echo "60: SIGRTMAX-4";killall $1 -v -s 60;sleep 0.1
-echo "61: SIGRTMAX-3";killall $1 -v -s 61;sleep 0.1
-echo "62: SIGRTMAX-2";killall $1 -v -s 62;sleep 0.1
-echo "63: SIGRTMAX-1";killall $1 -v -s 63;sleep 0.1
-echo "64: SIGRTMAX";killall $1 -v -s 64;sleep 0.1
+echo "55: SIGRTMAX-9 ";killall $1 -v -s 55;sleep 0.1
+echo "56: SIGRTMAX-8 ";killall $1 -v -s 56;sleep 0.1
+echo "57: SIGRTMAX-7 ";killall $1 -v -s 57;sleep 0.1
+echo "58: SIGRTMAX-6 ";killall $1 -v -s 58;sleep 0.1
+echo "59: SIGRTMAX-5 ";killall $1 -v -s 59;sleep 0.1
+echo "60: SIGRTMAX-4 ";killall $1 -v -s 60;sleep 0.1
+echo "61: SIGRTMAX-3 ";killall $1 -v -s 61;sleep 0.1
+echo "62: SIGRTMAX-2 ";killall $1 -v -s 62;sleep 0.1
+echo "63: SIGRTMAX-1 ";killall $1 -v -s 63;sleep 0.1
+echo "64: SIGRTMAX   ";killall $1 -v -s 64;sleep 0.1
 echo "HEH. NOTHING PERSONNEL KID..."
